@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_l4_test"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.meepo.huangshan.UI.L4_test">
+
+    <TextView
+        android:text="请输入一个数字"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/L4test_tv1"
+        android:textSize="24sp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="102dp" />
+
+    <EditText
+        android:hint="请输入数字"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/L4test_et_num1"
+        android:textSize="24sp"
+        android:layout_above="@+id/L4test_btn_1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="93dp" />
+
+    <Button
+        android:text="输出随机数"
+        android:onClick="randomnum"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="61dp"
+        android:id="@+id/L4test_btn_1"
+        android:layout_above="@+id/L4test_tv1"
+        android:layout_centerHorizontal="true" />
+</RelativeLayout>

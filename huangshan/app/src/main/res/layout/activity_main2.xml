@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.meepo.huangshan.UI.Main2Activity">
+
+    <Button
+        android:text="1"
+        android:onClick="shuru"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:id="@+id/Main2_btn_1"
+        android:layout_below="@+id/textView"
+        android:layout_toLeftOf="@+id/Main2_btn_2"
+        android:layout_toStartOf="@+id/Main2_btn_2" />
+
+    <Button
+        android:text="2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/Main2_btn_2"
+        android:layout_alignBaseline="@+id/Main2_btn_1"
+        android:layout_alignBottom="@+id/Main2_btn_1"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:text="3"
+        android:onClick="shuru"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/Main2_btn_3"
+        android:layout_above="@+id/Main2_btn_6"
+        android:layout_alignRight="@+id/Main2_btn_deng"
+        android:layout_alignEnd="@+id/Main2_btn_deng" />
+
+    <Button
+        android:text="4"
+        android:onClick="shuru"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/Main2_btn_4"
+        android:layout_alignBaseline="@+id/Main2_btn_5"
+        android:layout_alignBottom="@+id/Main2_btn_5"
+        android:layout_alignLeft="@+id/Main2_btn_1"
+        android:layout_alignStart="@+id/Main2_btn_1" />
+
+    <Button
+        android:text="5"
+        android:onClick="shuru"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/Main2_btn_5"
+        android:layout_alignBaseline="@+id/Main2_btn_6"
+        android:layout_alignBottom="@+id/Main2_btn_6"
+        android:layout_toRightOf="@+id/Main2_btn_4"
+        android:layout_toEndOf="@+id/Main2_btn_4" />
+
+    <Button
+        android:text="6"
+        android:onClick="shuru"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/Main2_btn_6"
+        android:layout_below="@+id/Main2_btn_2"
+        android:layout_toRightOf="@+id/Main2_btn_5"
+        android:layout_toEndOf="@+id/Main2_btn_5" />
+
+    <Button
+        android:text="7"
+        android:onClick="shuru"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/Main2_btn_7"
+        android:layout_alignBaseline="@+id/Main2_btn_8"
+        android:layout_alignBottom="@+id/Main2_btn_8"
+        android:layout_alignLeft="@+id/Main2_btn_4"
+        android:layout_alignStart="@+id/Main2_btn_4" />
+
+    <Button
+        android:text="8"
+        android:onClick="shuru"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/Main2_btn_8"
+        android:layout_alignBaseline="@+id/Main2_btn_9"
+        android:layout_alignBottom="@+id/Main2_btn_9"
+        android:layout_toRightOf="@+id/Main2_btn_4"
+        android:layout_toEndOf="@+id/Main2_btn_4" />
+
+    <Button
+        android:text="9"
+        android:onClick="shuru"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/Main2_btn_9"
+        android:layout_below="@+id/Main2_btn_6"
+        android:layout_toRightOf="@+id/Main2_btn_8"
+        android:layout_toEndOf="@+id/Main2_btn_8" />
+
+    <Button
+        android:text="0"
+        android:onClick="shuru"
+        android:layout_width="265dp"
+        android:layout_height="50dp"
+        android:id="@+id/Main2_btn_0"
+        android:layout_below="@+id/Main2_btn_9"
+        android:layout_alignLeft="@+id/Main2_btn_jia"
+        android:layout_alignStart="@+id/Main2_btn_jia" />
+
+    <Button
+        android:text="="
+        android:layout_height="50dp"
+        android:id="@+id/Main2_btn_deng"
+        android:layout_width="265dp"
+        android:layout_below="@+id/Main2_btn_chu"
+        android:layout_alignLeft="@+id/Main2_btn_cheng"
+        android:layout_alignStart="@+id/Main2_btn_cheng" />
+
+    <Button
+        android:text="+"
+        android:layout_width="120dp"
+        android:layout_height="50dp"
+        android:id="@+id/Main2_btn_jia"
+        android:layout_alignBaseline="@+id/Main2_btn_jian"
+        android:layout_alignBottom="@+id/Main2_btn_jian"
+        android:layout_alignLeft="@+id/Main2_btn_7"
+        android:layout_alignStart="@+id/Main2_btn_7" />
+
+    <Button
+        android:text="-"
+        android:layout_width="120dp"
+        android:layout_height="50dp"
+        android:id="@+id/Main2_btn_jian"
+        android:layout_below="@+id/Main2_btn_0"
+        android:layout_alignRight="@+id/Main2_btn_9"
+        android:layout_alignEnd="@+id/Main2_btn_9" />
+
+    <Button
+        android:text="÷"
+        android:layout_width="120dp"
+        android:layout_height="50dp"
+        android:id="@+id/Main2_btn_chu"
+        android:layout_below="@+id/Main2_btn_jian"
+        android:layout_alignRight="@+id/Main2_btn_deng"
+        android:layout_alignEnd="@+id/Main2_btn_deng" />
+
+    <Button
+        android:text="X"
+        android:layout_width="120dp"
+        android:layout_height="50dp"
+        android:id="@+id/Main2_btn_cheng"
+        android:layout_below="@+id/Main2_btn_jia"
+        android:layout_alignLeft="@+id/Main2_btn_jia"
+        android:layout_alignStart="@+id/Main2_btn_jia" />
+
+    <Button
+        android:text="清零"
+        android:layout_width="265dp"
+        android:layout_below="@+id/Main2_btn_deng"
+        android:layout_alignLeft="@+id/Main2_btn_deng"
+        android:layout_alignStart="@+id/Main2_btn_deng"
+        android:id="@+id/Main2_btn_clear"
+        android:layout_height="50dp" />
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView"
+        android:textSize="100px"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+</RelativeLayout>

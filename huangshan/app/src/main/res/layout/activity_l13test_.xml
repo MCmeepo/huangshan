@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context="com.meepo.huangshan.UI.L13test_A">
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/L13A_tv1"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="top"
+            android:layout_weight="1"
+            android:text="----发红包----"
+            android:textColor="#ff3333"
+            android:textSize="50dp"></TextView>
+
+        <EditText
+            android:id="@+id/L13A_et_money"
+            android:gravity="left"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="end"
+            android:layout_weight="1"
+            android:textSize="30dp"
+            android:hint="请输入金额"
+            ></EditText>
+
+        <EditText
+            android:id="@+id/L13A_et_num"
+            android:gravity="left"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:textSize="30dp"
+            android:hint="请输入红包数量"
+            ></EditText>
+    </LinearLayout>
+
+    <Button
+        android:onClick="MakeRed"
+        android:id="@+id/l13A_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="确认"/>
+
+
+</LinearLayout>

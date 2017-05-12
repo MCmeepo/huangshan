@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_random_3"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.meepo.huangshan.UI.Random_3">
+
+    <TextView
+        android:text="along "
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/rd3_tv_1"
+        android:textSize="36sp"
+        android:layout_marginTop="14dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:text="dan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rd3_tv_1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="33dp"
+        android:id="@+id/rd3_tv_2"
+        android:textSize="36sp" />
+
+    <TextView
+        android:text="mc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="29dp"
+        android:id="@+id/rd3_tv_3"
+        android:textSize="36sp"
+        android:layout_below="@+id/rd3_tv_2"
+        android:layout_alignLeft="@+id/rd3_tv_2"
+        android:layout_alignStart="@+id/rd3_tv_2" />
+
+    <Button
+        android:text="replay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rd3_btn_1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="34dp"
+        android:id="@+id/rd3_btn_2"
+        android:textSize="30sp"
+        android:onClick="clear_rdnum"
+        />
+
+    <Button
+        android:text="Go!"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/rd3_btn_1"
+        android:textSize="30sp"
+        android:onClick="random3num"
+        android:layout_below="@+id/rd3_tv_3"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="83dp" />
+
+    <TextView
+        android:text="along:0 dan:0 mc:0"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/rd3_tv_4"
+        android:textSize="18sp"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.meepo.huangshan">
+
+    <!-- 添加读写权限 -->
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".UI.L34Exception">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".UI.Main2Activity" />
+        <activity android:name=".UI.MainActivity" />
+        <activity android:name=".UI.Random_Activity" />
+        <activity android:name=".UI.Random_3" />
+        <activity android:name=".UI.chuangjianrenwu" />
+        <activity android:name=".UI.L4_EditText" />
+        <activity android:name=".UI.L4_test" />
+        <activity android:name=".UI.L5bActivity" />
+        <activity android:name=".UI.L5Activity" />
+        <activity android:name=".UI.L5test2" />
+        <activity android:name=".UI.L5test3" />
+        <activity android:name=".UI.L5test1" />
+        <activity android:name=".UI.L6_Image" />
+        <activity android:name=".UI.L7_class" />
+        <activity android:name=".UI.L7test" />
+        <activity android:name=".UI.L8_ClassMethod" />
+        <activity android:name=".UI.L8test" />
+        <activity android:name=".UI.L8test2" />
+        <activity android:name=".UI.L9Timer" />
+        <activity android:name=".UI.L9test" />
+        <activity android:name=".UI.L10Timer" />
+        <activity android:name=".UI.L10test" />
+        <activity android:name=".UI.L11ListView" />
+        <activity android:name=".UI.L11test" />
+        <activity android:name=".teach.L11ListViewExcActivity" />
+        <activity android:name=".teach.L12ClassActivity" />
+        <activity android:name=".UI.L13test_B" />
+        <activity android:name=".UI.L13test_A" />
+        <activity android:name=".UI.L15_dialog" />
+        <activity android:name=".teach.L16BtnEditLogActivity" />
+        <activity android:name=".UI.L17test" />
+        <activity android:name=".UI.L18test" />
+        <activity android:name=".UI.L22_PopWindow" />
+        <activity android:name=".UI.L23File" />
+        <activity android:name=".UI.L25Json" />
+        <activity android:name=".UI.L28_UI" />
+        <activity android:name=".UI.L29test" />
+        <activity android:name=".UI.L29Progress" />
+        <activity android:name=".UI.L31Relativelayout" />
+        <activity android:name=".test.Account" />
+        <activity android:name=".UI.L32_HttpActiviy"></activity>
+    </application>
+
+</manifest>

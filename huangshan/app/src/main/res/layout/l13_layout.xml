@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+
+    <!--weight :
+     weight:占比
+     width:横向填充方式       match_parent:填充父布局
+     heigh：纵向填充方式      wrap_content:仅包裹内容
+     orientation：方向（vertical纵向    horizontal横向 ）
+     padding：内边距
+     margin:外边距
+     gravity：重心
+     layout_gravity:相对于父布局位置
+
+-->
+    <LinearLayout
+
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+
+                <ImageView
+android:padding="20sp"
+                    android:id="@+id/l13_iv1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:src="@mipmap/l6_4"></ImageView>
+
+                <ImageView
+                    android:padding="20sp"
+
+                    android:id="@+id/l13_iv2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:src="@mipmap/l6_4"></ImageView>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <!--weight :
+                -->
+                <ImageView
+                    android:padding="20sp"
+                    android:id="@+id/l13_iv3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:src="@mipmap/l6_4"></ImageView>
+
+                <ImageView
+                    android:padding="20sp"
+                    android:id="@+id/l13_iv4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:src="@mipmap/l6_4"></ImageView>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/L13_Lv"
+        android:layout_weight="3"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"></ListView>
+</LinearLayout>
+
+

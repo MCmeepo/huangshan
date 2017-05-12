@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_l16_btn_edit_log"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.meepo.huangshan.teach.L16BtnEditLogActivity">
+
+    <EditText
+        android:id="@+id/l16_et"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="请输入一个数字" />
+
+    <Button
+        android:id="@+id/l16_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="点我" />
+
+    <TextView
+        android:id="@+id/l16_tv_log"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp" />
+
+</LinearLayout>

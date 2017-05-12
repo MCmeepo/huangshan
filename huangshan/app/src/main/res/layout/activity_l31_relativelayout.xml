@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_l31_relativelayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/l6_2"
+    tools:context="com.meepo.huangshan.UI.L31Relativelayout">
+
+    <TextView
+        android:id="@+id/l30_tv_user"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:background="@drawable/tv_bg"
+        android:gravity="center|start"
+        android:paddingLeft="20dp"
+        android:text="＜    卞玉龙"
+        android:textColor="#ffffff"
+        android:textSize="20dp" />
+
+    <RelativeLayout
+        android:id="@+id/l30_rl_data1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/l30_tv_user"
+        android:paddingRight="80dp">
+
+        <TextView
+            android:id="@+id/l30_tv_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/tv_bg1"
+            android:paddingLeft="3dp"
+            android:paddingRight="3dp"
+            android:text="16:15"
+            android:textSize="13dp" />
+
+        <ImageView
+            android:id="@+id/l30_im_user1"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_below="@+id/l30_tv_time"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/tv_bg"
+            android:src="@mipmap/along" />
+
+        <TextView
+            android:id="@+id/l30_tv_data1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/l30_im_user1"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="80dp"
+            android:layout_marginTop="5dp"
+            android:layout_toRightOf="@+id/l30_im_user1"
+            android:background="@mipmap/icon_message_left"
+            android:padding="8dp"
+            android:text="阿蛋阿蛋"
+            android:textSize="13dp" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/l30_rl_data2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/l30_rl_data1">
+
+
+        <ImageView
+            android:id="@+id/l30_im_user2"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/tv_bg"
+            android:src="@mipmap/ic_launcher" />
+
+        <TextView
+            android:id="@+id/l30_tv_data2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@mipmap/icon_message_right"
+            android:padding="8dp"
+            android:layout_marginLeft="80dp"
+            android:text="咋了咋了卧槽咋了咋了卧槽咋了咋了卧槽咋了咋了卧槽咋了咋了卧槽咋了咋了卧槽咋了咋了卧槽咋了咋了卧槽咋了咋了卧槽"
+            android:textSize="13dp"
+            android:layout_alignTop="@+id/l30_im_user2"
+            android:layout_toLeftOf="@+id/l30_im_user2"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="8dp"
+           />
+    </RelativeLayout>
+
+</RelativeLayout>

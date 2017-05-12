@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_l22_popup_window"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.meepo.huangshan.UI.L22_PopWindow">
+
+    <Button
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:onClick="gril1"
+        android:text="妹子1" />
+
+    <Button
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:onClick="gril2"
+        android:text="妹子2" />
+
+    <Button
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:onClick="aloog"
+        android:layout_width="0dp"
+        android:text="阿龙" />
+
+</LinearLayout>
